@@ -1,0 +1,102 @@
+/* style.css */
+
+/* Estilos generales */
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://i.pinimg.com/originals/09/09/5c/09095c1151b52d03c888aaa297f595b2.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.producto
+{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .0);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #492c00;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.producto .btn
+{
+    font-family: Times New Roman;
+    width: 100px;
+    height: 45px;
+    background: #492c00;
+    color: wheat;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.autor
+{
+    color: #b75500;
+}
+.nombre
+{
+    color: #2f1600;
+}
+/* Encabezado */
+header {
+    background-color: wheat;
+    color: #512200;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #512200;
+    text-decoration: none;
+}
+
+/* Sección de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    background-color: #ffaf36;
+    border: 5px solid wheat;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: wheat;
+    color: #512200;
+    text-align: center;
+    padding: 10px;
+}

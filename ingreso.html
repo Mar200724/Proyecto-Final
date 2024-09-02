@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="insertar.css">
+	<script src="" crossorigin="anonymous"></script>	 <!--- aqui va el titulo !-->
+	<title>Ingresar Nuevo Libro</title>
+</head>
+<body>
+   <div class="wrapper">
+     <form action="insert.php" method="post">
+        <h1>Ingresar</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Nombre del Usuario" id="nombre" name="nombre" required>
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Correo del Usuario" id="correo" name="correo" required>
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Libro" id="libro" name="libro" required>
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Autor" id="autor" name="autor" required>
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Fecha de Ingreso" id="ingreso" name="ingreso" required>
+        </div>
+        
+       <button type="submit" class="btn">Añadir Libro</button>
+     </form>
+   </div>
+</body>    
